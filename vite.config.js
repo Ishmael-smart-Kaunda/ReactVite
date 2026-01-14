@@ -8,4 +8,5 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
+  base: ProcessingInstruction.env.VITE_BASE_PATH || "/ReactVite"
 })
